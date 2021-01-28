@@ -13,7 +13,7 @@ gcloud projects remove-iam-policy-binding $PROJECT_ID \
 
 # create storage bucket for TF state
 echo "Removing storage bucket ${BUCKET_ID} ..."
-gsutil rm -f gs://${BUCKET_ID}
+gsutil rm -r gs://${BUCKET_ID}
 
 echo "Done"
 exit 0
