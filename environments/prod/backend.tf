@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "mike-test-gitops-demo-tfstate"
+    bucket = "doit-msp-terraform-demo-tfstate"
     prefix = "env/prod"
   }
 }
