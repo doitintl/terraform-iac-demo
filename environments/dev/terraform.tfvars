@@ -1,1 +1,1 @@
-project="mike-test-gitops-demo"
+project="doit-msp-terraform-demo"
